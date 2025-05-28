@@ -13,7 +13,7 @@ export default function PricingPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p>Ideal per començar. Accés limitat a funcionalitats.</p>
-            <Button variant="outline" className="w-full">Comença</Button>
+            <Button className="w-full">Comença</Button>
           </CardContent>
         </Card>
 
@@ -33,7 +33,7 @@ export default function PricingPage() {
           </CardHeader>
           <CardContent className="space-y-4">
             <p>Solució avançada per a equips grans.</p>
-            <Button variant="secondary" className="w-full">Contacta'ns</Button>
+            <Button className="w-full">Contacta"ns</Button>
           </CardContent>
         </Card>
       </div>

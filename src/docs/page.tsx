@@ -14,7 +14,7 @@ export default function DocsPage() {
         </AlertDescription>
       </Alert>
       <p className="text-gray-700">
-        Aquesta secció explica com utilitzar l'aplicació, configurar rutes, estils i components.
+        Aquesta secció explica com utilitzar l"aplicació, configurar rutes, estils i components.
       </p>
     </div>
   )
