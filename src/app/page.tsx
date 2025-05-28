@@ -1,7 +1,7 @@
 // app/page.tsx
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import Image from "next/image" 
+
 
 export default function HomePage() {
   return (
@@ -31,12 +31,11 @@ export default function HomePage() {
 
       <section className="bg-black py-16 px-4 flex justify-center">
         <div className="max-w-6xl mx-auto">
-<img 
-  src="path/to/your/image_64fb69.png" 
-  alt="Product interface showing content overview with hashtags and keyword frequency" 
-  className="img-fluid rounded shadow-lg" 
-  style={{ maxWidth: "800px", width: "100%" }} 
-/>
+        <img 
+          src="./foto1.png"  
+          className="img-fluid rounded shadow-lg" 
+          style={{ maxWidth: "800px", width: "100%" }} 
+        />
 
 
 
