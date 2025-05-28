@@ -15,25 +15,26 @@ export default function Footer() {
         </Link>
 
         <nav>
-          <ul className="flex items-center gap-6 p-0 m-0 list-none">
-            <li>
-              <Link
-                href="/contact"
-                className="text-white text-sm hover:opacity-80 transition-opacity no-underline"
-              >
-                Contact Us
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/terms-of-service"
-                className="text-white text-sm hover:opacity-80 transition-opacity no-underline"
-              >
-                Terms of Service
-              </Link>
-            </li>
-          </ul>
-        </nav>
+  <ul className="flex items-center p-0 m-0 list-none">
+    <li className="mr-8 last:mr-0">
+      <Link
+        href="/"
+        className="text-white text-sm hover:opacity-80 transition-opacity no-underline"
+      >
+        Contact Us
+      </Link>
+    </li>
+    <li>
+      <Link
+        href="/"
+        className="text-white text-sm hover:opacity-80 transition-opacity no-underline"
+      >
+        Terms of Service
+      </Link>
+    </li>
+  </ul>
+</nav>
+
       </div>
     </footer>
   );
