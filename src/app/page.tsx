@@ -31,14 +31,13 @@ export default function HomePage() {
 
       <section className="bg-black py-16 px-4 flex justify-center">
         <div className="max-w-6xl mx-auto">
-<Image
-  src="/images/d6f5b8264acc86fb6785630909bde7ee015b304e.png"
-  alt="Product screenshot displaying insights"
-  width={1200}
-  height={700}
-  quality={90}
-  className="rounded-lg shadow-2xl border border-gray-800"
+<img 
+  src="path/to/your/image_64fb69.png" 
+  alt="Product interface showing content overview with hashtags and keyword frequency" 
+  className="img-fluid rounded shadow-lg" 
+  style={{ maxWidth: "800px", width: "100%" }} 
 />
+
 
 
 
@@ -76,7 +75,7 @@ export default function HomePage() {
     <div className="container">
         <h2 className="text-center mb-5 display-4">Instant setup, no custom code</h2>
         <p className="text-center lead mb-5 px-lg-5">
-            Invite the bot, pick a channel, and you"re set—no custom code needed, and no vendor lock-in.
+           Invite the bot, pick a channel, and you&apos;re set—no custom code needed, and no vendor lock-in.
         </p>
         <div className="d-flex justify-content-center">
             <img 
